@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(241, 241, 241);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(60, 60, 60);
+  border-radius: 10px;
+  border: 2px solid rgb(241, 241, 241);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #222;
+}
+  
+html, body {
+    height: 100px;
+}
+  
+body {
+    font-size: 16px;
+    min-width: 320px;
+    position: relative;
+    line-height: 1.65;
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+    opacity: 1;
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+
+p {
+  color: white;
+}
+
+.container_menu {
+  margin: 0 auto;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  background-color: rgb(241, 241, 241);
+  display: flex;
+  z-index: 50;
+  opacity: 0.7;
+  transition-duration: 500ms;
+}
+
+.container_menu:hover {
+  opacity: 100%;
+}
+
+
+.menu_logo img {
+  width: 120px;
+}
+
+.menu_logo {
+  line-height: 90px;
+  margin-left: 120px;
+}
+
+.nav_menu {
+  width: 1670px;
+}
+
+.link_nav {
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 60px;
+  float: right;
+  margin-right: 80px;
+}
+
+.link_nav_1 {
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 60px;
+  color: grey;
+  float: right;
+  margin-right: 80px;
+}
+
+.link_nav_1:hover {
+  color: orange;
+}
+
+.nav_menu a {
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition-duration: 300ms;
+  opacity: 1;
+  color: black;
+}
+
+.link_nav:hover {
+  color: orange;
+}
+
+.link_nav_4 {
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 60px;
+  float: right;
+  margin-right: 80px;
+  opacity: 1;
+}
+.link_nav_4:hover {
+  color: orange;
+}
+
+.container_menu.opacity {
+  opacity: 0.90;
+}
+
+.invisible_block {
+  padding-top: 60px;
+  display: block;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    margin-top: 20px;
+}
+
+.advice_cont_1 {
+    display: flex;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.103);
+    height: 500px;
+}
+
+.advice_text {
+    width: 50%;
+    padding-left: 30px;
+    color: white;
+    font-weight: 700;
+}
+
+.advice_h2 {
+    margin-top: 50px;
+}
+
+.advice_li {
+    margin-top: 10px;
+}
+
+.advice_li ol li {
+  padding-top: 20px;
+}
+
+.advice_li ul li {
+  padding-top: 20px;
+}
+
+.advice_img {
+    width: 50%;
+}
+
+.advice_img img {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 25px;
+  width: 100%;
+}
+
+.advice_cont_2 {
+    display: flex;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.103);
+    height: 500px;
+}
+
+.advice_cont_2 img {
+    width: 100%;
+    margin-top: 60px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.advice_cont_3 img {
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.advice_cont_3 {
+    display: flex;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.103);
+    height: 500px;
+}
+
+.footer_cont {
+  background-color: #222;
+  display: flex;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.footer_block_1,
+.footer_block_2,
+.footer_block_3 {
+  width: 30%;
+  height: 200px;
+}
+
+.footer_block_1 ul li {
+  color: white;
+  padding-top: 30px;
+  list-style-type: none;
+  font-family: montserrat, sans-serif;
+}
+
+.footer_block_2 ul li {
+  color: white;
+  font-family: montserrat, sans-serif;
+  text-transform: uppercase;
+  padding-top: 30px;
+  margin-left: 50px;
+}
+
+.footer_block_1 {
+  margin-left: 150px;
+}
+
+.footer_block_3 a {
+  line-height: 200px;
+  text-transform: uppercase;
+  font-family: montserrat, sans-serif;
+  text-decoration: none;
+  color: white;
+}
